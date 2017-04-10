@@ -1,0 +1,12 @@
+language: java
+jdk:
+- oraclejdk8
+script:
+- mvn cobertura:cobertura
+deploy:
+  provider: heroku
+  api_key:
+    secure: j8KL7ImcBA6EvQiOrKLXQpCsCoZtnZEV9qGFL3Espv0nkHBhbchVPKfm/1YdUeEIjYd9XbSFjOpwgHp+XdwXwcEOUcXz0DetElH5K0iceqbr+rnyskG+T71FMi5XS7rI6KZxMBT13a0Htp37FCdjSNnDt1uf9JlYj/iWrR4Oi6mVIT9aAcIkyLZVTOHaDTPo1492eRmEBQG5zBot8W9gEVgdvK4trexZTjJ0dYoQFqgHnnf9+YR85QEb3QkBRjMtNuOGBcdyre36hNjqmYm64LL4x/KeYM6anHbp9uisNfTjQfIJybZezq3AS+0cdAHgLLJRwGWtY6COH/GOUF4i08AK4/ZidYqj0vhdp3v4gVut5ZhXaV9fPsaehO69D1zWlnI0tJYS55z/Oc5ArjE5u4RrV2CdxDt3PzMym18ZHPo6q6h/GbqhRBF0qDgRXvf92lm7BWDgGAFGw5jBTf3UN++Bp4DMDBl1YK6bn6Js20n4YEn9q0eAIvPGX1wXkWdcGEE9aYXq/yvNSmSOzygxU+dp3XpCitsEogjQ/mMQaxeKYsnbrhozAvrLv3v06I04nBdCbFN/NzffkU3l6t809U1UHnt/3tDxZ6rO5WuGThDqIq3+vUjC7PPsgAet/w/BbzOFQdF75Bn/4r0WFiIvtH3HmawR2XN/O2XUnjuK3Q0=
+  app: aplikasi-penggajian
+  on:
+    repo: idtazkia/aplikasi-penggajian
