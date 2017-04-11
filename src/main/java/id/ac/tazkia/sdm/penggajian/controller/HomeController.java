@@ -1,4 +1,4 @@
-package id.ac.tazkia.hr.penggajian.controller;
+package id.ac.tazkia.sdm.penggajian.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

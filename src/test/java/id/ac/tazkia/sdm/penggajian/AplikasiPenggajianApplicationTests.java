@@ -1,4 +1,4 @@
-package id.ac.tazkia.hr.penggajian;
+package id.ac.tazkia.sdm.penggajian;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
